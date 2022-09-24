@@ -1,0 +1,20 @@
+
+
+.AppTitle{
+    font-size: 16px;
+    padding: 15px;
+    /* margin-bottom: 15px; */
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-family: "Frank Ruhl Libre", serif;
+    background-image: linear-gradient(to right, #fed643, #ff4181);
+    background-repeat: no-repeat;
+    /* clip-path: polygon(0 0, 100% 0, 99% 79%, 49% 79%, 9% 82%, 1% 100%, 0% 75%); */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 67%, 11% 69%, 0 88%, 0 61%,0 58%);
+}
+
+.AppTitle p{
+    padding-bottom: 10px;
+}

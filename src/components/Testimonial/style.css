@@ -1,0 +1,36 @@
+.testimonial {
+    padding: 0 10%;
+}
+
+.testimonial>h2 {
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.testimonial>h2 span {
+    font-weight: bold;
+    color: #ff4181;
+    ;
+}
+
+.testimonial-card-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.testimonial-card {
+    animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+
+}

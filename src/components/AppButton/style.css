@@ -1,0 +1,17 @@
+
+.appBtn{
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 1px rgb(0 0 0 / 10%);
+    background-image:linear-gradient(to right, #fed643, #ff4181) ;
+    transition: all .3s ease;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.appBtn:hover{
+    background-image:linear-gradient(to left, #fed643, #ff4181) ;
+}

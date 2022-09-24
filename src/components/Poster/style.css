@@ -1,0 +1,173 @@
+.poster {
+    padding: 80px 10%;
+    position: relative;
+
+
+}
+
+.poster::before {
+    content: '';
+    min-width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.poster .name {
+    color: #ff4181;
+}
+
+.poster .dynmic-title {
+    line-height: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    /* background-color: #ff4181; */
+    animation: weighthandler 2s steps(15) infinite alternate;
+}
+
+
+@keyframes weighthandler {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.poster .dynmic-title li {
+    white-space: nowrap;
+    list-style: none;
+    font-weight: 500;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    top: 0;
+    animation: move 18s steps(4) infinite;
+
+}
+
+@keyframes move {
+    100% {
+        top: -280px;
+    }
+}
+
+.poster .dynmic-title li span {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.posterBtn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.posterBtn img {
+    margin-left: 15px;
+}
+
+.poster-img {
+    max-width: 500px;
+    max-height: 600px;
+    margin: auto;
+    z-index: 5;
+}
+
+.poster-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .poster .dynmic-title li {
+        font-size: 40px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .poster {
+        display: flex;
+        position: static;
+        overflow: hidden;
+    }
+
+    .poster::after {
+        content: '';
+        background: url(http://demos.codexcoder.com/labartisan/html/maxino/assets/images/banner/bg.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .poster>div {
+        flex: 1;
+    }
+
+    .poster-img {
+        position: relative;
+    }
+
+    .poster-img::before {
+        content: '';
+        background: url(http://demos.codexcoder.com/labartisan/html/maxino/assets/images/banner/01.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -70px;
+        left: 15px;
+        width: 500px;
+        height: 600px;
+        margin: auto;
+        animation: animate1 2s infinite linear alternate;
+    }
+
+    @keyframes animate1 {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(8px);
+        }
+    }
+
+    .posterBtn {
+        padding: 20px 12px;
+    }
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+    .poster-img {
+        max-height: 380px;
+    }
+
+    .poster .dynmic-title li {
+        font-size: 48px;
+    }
+
+    .poster::before {
+        background-image: url(../../assets/bg.png);
+        background-repeat: no-repeat;
+        z-index: -1;
+        overflow: hidden;
+    }
+}

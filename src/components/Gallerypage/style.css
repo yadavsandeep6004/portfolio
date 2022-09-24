@@ -1,0 +1,79 @@
+
+.gallerypage{
+    padding: 30px 10%;
+}
+.gallerypage h2{
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.gallerypage h2 span{
+    color: #ff4181;
+    font-weight: bold;
+}
+
+.port-btn{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+.port-btn button{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: center;
+margin: 10px;
+}
+
+.port-btn-bg{
+    color: black;
+    background-image: linear-gradient(to right, #fff, #fff);
+}
+
+
+
+.port-btn button p{
+    padding-left:10px; 
+}
+
+
+
+.portfolio-video{
+    max-width: 320px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.portfolio-image{
+    margin: 15px;
+   display: inline-block;
+}
+.portfolio-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.gallery{
+   text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .gallery{
+        column-count: 2;
+        column-gap:20px ;
+     }
+    
+}
+@media (min-width: 1000px) {
+    .gallery{
+        column-count: 3;
+        column-gap:20px ;
+     }
+    
+}

@@ -1,0 +1,36 @@
+.AppModal-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AppModal-img >div{
+    max-width:180px;
+    height: 40px;
+    
+}
+
+
+
+.AppModal-img >div img{
+    width: 100%;
+    height: 100%;
+   
+}
+.AppModal-img button{
+    background-color: #ff4181;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+
+@media(min-width:1000px){
+    .AppModal{
+        display: none;
+    }
+}

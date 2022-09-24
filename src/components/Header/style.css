@@ -1,0 +1,25 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px -2px rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    width: 100%;
+    /* position: fixed; */
+    background: #fff;
+    z-index: 999;
+    margin-bottom: 15px;
+}
+
+.header .menu{
+    color: #ff4181;
+    width: 25px;
+    height: 25px;
+}
+
+.header .menu svg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}

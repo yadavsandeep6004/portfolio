@@ -1,0 +1,34 @@
+.resume{
+    max-width: 690px;
+    margin: auto;
+    padding: 20px;
+}
+.resume >h2{
+    font-weight: 300 ;
+    line-height: 40px;
+}
+.resume h2 span{
+    color: #ff4181;
+    font-weight: 700
+}
+
+.resume .resume-btn{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.resume .resume-btn img{
+  padding-left: 20px;
+}
+
+
+
+@media (min-width: 1000px) {
+    .resume{
+        max-width: 1070px;
+    }
+    .resume .card>div{
+    
+        display: flex;
+    }
+}

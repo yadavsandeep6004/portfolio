@@ -1,0 +1,44 @@
+.blog {
+    padding: 50px 10%;
+}
+
+.blog button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.blog .blog-heading-wapper h2 {
+    font-weight: 300;
+    line-height: 40px
+}
+
+.blog .blog-heading-wapper h2 span {
+    color: #ff4181;
+    font-weight: 700
+}
+
+.blog .blog-heading-wapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+
+
+@media (min-width: 1000px) {
+    .blog .blog-card-wapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog .blog-card-wapper>div {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    
+}

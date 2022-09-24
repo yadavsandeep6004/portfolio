@@ -1,0 +1,33 @@
+.footer {
+    height: 325px;
+    background-image: linear-gradient(to left, #fed643, #e15377);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer img {
+    display: block;
+    margin: auto;
+}
+
+.footer p{
+    margin: 10px 0;
+}
+
+.footer ul li {
+    background-color: #fff;
+    color: #e15377;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex
+}

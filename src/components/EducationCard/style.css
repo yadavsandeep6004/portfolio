@@ -1,0 +1,60 @@
+.educationCard {
+    padding: 25px;
+    margin: 15px;
+    border-radius: 1px;
+    background: #fff;
+    box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.educationCard>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.educationCard .educationCard-image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.educationCard .educationCard-image img {
+    width: 40px;
+    height: 40px;
+}
+
+.educationCard .educationCard-image p {
+  
+    padding-left: 20px;
+}
+
+.educationCard .educationCard-time {
+    background-image: linear-gradient(to right, #fed643, #ff4181);
+    /* clip-path: polygon(12% 18%, 100% 20%, 100% 81%, 13% 75%, 0% 50%); */
+    clip-path: polygon(9% 36%, 11% 20%, 100% 20%, 100% 80%, 9% 59%,050%);
+}   
+
+.educationCard .educationCard-time p {
+
+    padding: 6px 14px;
+}
+
+.educationCard h3{
+    color: #000;
+    line-height: 1.5;
+    margin: 10px 0 ;
+}
+
+.educationCard h5{
+    color: #696969;
+ 
+}
+
+
+
+
+.educationCard:hover.educationCard h3 {
+  color: #ff4181;
+
+}
+

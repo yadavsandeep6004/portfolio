@@ -1,0 +1,29 @@
+.pricing-plan{
+    padding: 30px 10%;
+}
+
+.pricing-plan >h2{
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.pricing-plan >h2 span{
+    color: #ff4181;
+    font-weight: 700;
+}
+
+
+
+@media (min-width: 768px) {
+    .pricing-plan .pricing-plan-card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .pricing-plan .pricing-plan-card> div{
+       margin: 15px;
+    }
+}
